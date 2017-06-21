@@ -1,0 +1,6 @@
+Booking 1 Shanghai A1, M1, A2
+Booking 2 Sydney A3, A4, M2
+Change rejected
+Shanghai A1 09:00 Apr 04 11:00 Apr 04
+Shanghai M1 09:00 Apr 04 11:00 Apr 04
+Shanghai A2 09:00 Apr 04 11:00 Apr 04

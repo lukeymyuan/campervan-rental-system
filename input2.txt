@@ -1,0 +1,24 @@
+Location Shanghai A1 Automatic
+Location Shanghai M1 Manual
+Location Shanghai A2 Automatic
+Location Sydney A3 Automatic
+Location Sydney A4 Automatic
+Location Sydney M2 Manual
+Location Chicago M3 Manual
+Location Chicago M4 Manual
+Location Chicago A5 Automatic
+Request 1 09 Apr 4 11 Apr 4 2 Automatic 1 Manual
+	# Assign A1, M1, A2 of Shanghai
+	# Output Booking 1 Booking 1 Shanghai A1, M1, A2
+Request 2 09 Apr 4 12 Apr 4 1 Automatic 1 Manual
+	# Assign A3, M2 of Shanghai
+	# Output Booking 2 Sydney A3, M2
+Cancel 1
+	# Deassign A1, M1, A2 of Shanghai
+	# Output Cancel 1
+Cancel 3
+	# Cancel ID not found
+	# Output Cancel rejected
+Change 2 13 Apr 4 15 Apr 4 3 Automatic 1 Manual
+	# Deassign A3, M2 of Shanghai, and assign A1, M1, A2 of Shanghai, and A3 of Sydney
+	# Output Change 2 Shanghai A1, M1, A2; Sydney A3

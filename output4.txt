@@ -1,0 +1,10 @@
+Booking 1 CBD Wicked, Zeppelin, Floyd; Penrith Queen
+Booking 2 Sutherland Purple
+Booking 3 CBD Wicked, Zeppelin; Penrith Queen; Sutherland Hendrix
+Change 1 CBD Wicked, Zeppelin; Penrith Queen; Sutherland Purple, Hendrix
+Booking 4 CBD Wicked
+Cancel 3
+Booking rejected
+CBD Wicked 11:00 Mar 25 09:00 Mar 26
+CBD Wicked 23:00 Mar 27 23:00 Mar 29
+CBD Zeppelin 23:00 Mar 27 23:00 Mar 29

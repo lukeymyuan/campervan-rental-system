@@ -1,0 +1,26 @@
+Location Shanghai M1 Manual
+Location Shanghai M2 Manual
+Location Shanghai M3 Manual
+Location Bejing M4 Manual
+Location Bejing M5 Manual
+
+Request 1 14 Jun 9 14 Jun 19 2 Automatic
+	# Request cannot be fulfilled
+	# Output Booking rejected
+Request 2 00 Jan 01 23 Dec 30 5 Manual
+	# Assign M1, M2, M3 of Shanghai and M4, M5 of Beijing
+	# Output Booking 2 Shanghai M1, M2, M3; Bejing M4, M5
+Print Shanghai
+	# Prints all the bookings in Shanghai
+Change 2 23 May 03 23 May 10 4 Manual
+	# Deassign M1, M2, M3 of Shanghai and M4, M5 of Beijing, and assign M1, M2, M3 of Shanghai and M4 of Beijing,
+	# Output Booking 4 Shanghai M1, M2, M3; Bejing M4
+Request 3 23 May 03 23 May 10 5 Manual
+	# Request cannot be fulfilled
+	# Output Booking rejected
+Cancel 2
+    # Deassign M1, M2, M3 of Shanghai and M4, M5 of Beijing
+	# Output Cancel 2
+Request 4 23 May 03 23 May 10 2 Manual
+    # Assign M1, M2 of Shanghai
+    # Output Booking 2 Shanghai M1, M2

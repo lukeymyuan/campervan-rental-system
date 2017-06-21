@@ -1,0 +1,17 @@
+Location Shanghai A1 Automatic
+Location Shanghai M1 Manual
+Location Shanghai A2 Automatic
+Location Sydney A3 Automatic
+Location Sydney A4 Automatic
+Location Sydney M2 Manual
+Request 1 09 Apr 4 11 Apr 4 2 Automatic 1 Manual
+	# Assign A1, M1, A2 of Shanghai
+	# Output Booking 1 Booking 1 Shanghai A1, M1, A2
+Request 2 09 Apr 4 11 Apr 4 2 Automatic 1 Manual
+    # Assign A3, A4, M2 of Shanghai
+	# Output Booking 1 Booking 1 Shanghai A3, A4, M2
+Change 2 09 Apr 4 11 Apr 4 4 Automatic 1 Manual
+	# Change cannot be fulfilled
+	# Output Change rejected
+Print Shanghai
+    # Prints all the bookings in Shanghai

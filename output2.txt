@@ -1,0 +1,5 @@
+Booking 1 Shanghai A1, M1, A2
+Booking 2 Sydney A3, M2
+Cancel 1
+Cancel rejected
+Change 2 Shanghai A1, M1, A2; Sydney A3

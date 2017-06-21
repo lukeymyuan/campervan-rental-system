@@ -1,0 +1,9 @@
+Booking rejected
+Booking 2 Shanghai M1, M2, M3; Bejing M4, M5
+Shanghai M1 00:00 Jan 01 23:00 Dec 30
+Shanghai M2 00:00 Jan 01 23:00 Dec 30
+Shanghai M3 00:00 Jan 01 23:00 Dec 30
+Change 2 Shanghai M1, M2, M3; Bejing M4
+Booking rejected
+Cancel 2
+Booking 4 Shanghai M1, M2
